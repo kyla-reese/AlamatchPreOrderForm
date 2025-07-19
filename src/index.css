@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+
+@font-face {
+  font-family: "Poppins";
+  src: url("https://fonts.googleapis.com/css?family=Poppins");
+}
+
+@theme{
+  --color-darkest: #0D191A;
+  --color-mid: #112B2D;
+  --color-lighter: #22565A;
+  --color-highlight: #72B4B9;
+  --color-greyed: #505050;
+  --font-poppins: Poppins, "sans-serif";
+}
