@@ -54,6 +54,7 @@ function App() {
                                 type="text"
                                 name="name"
                                 placeholder="Name"
+                                disabled={isLoading}
                                 className="bg-white rounded-md w-full h-10 content-center pl-6 mb-4 text-greyed drop-shadow-md drop-shadow-darkest hover:cursor-pointer focus:outline-3 focus:outline-highlight"
                             />
                         </label>
@@ -63,6 +64,7 @@ function App() {
                                 type="text"
                                 name="email"
                                 placeholder="Email"
+                                disabled={isLoading}
                                 className="bg-white rounded-md w-full h-10 content-center pl-6 mb-4 text-greyed drop-shadow-md drop-shadow-darkest hover:cursor-pointer focus:outline-3 focus:outline-highlight"
                             />
                         </label>
@@ -72,6 +74,7 @@ function App() {
                                 type="text"
                                 name="cellnumber"
                                 placeholder="Cellphone Number"
+                                disabled={isLoading}
                                 className="bg-white rounded-md w-full h-10 content-center pl-6 mb-4 text-greyed drop-shadow-md drop-shadow-darkest hover:cursor-pointer focus:outline-3 focus:outline-highlight"
                             />
                         </label>
